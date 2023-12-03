@@ -7,7 +7,7 @@
 - zainstalowane dockerowe środowisko developerskie https://ddev.com/
 
 ## Uruchomienie projektu lokalnie
-Dzięki odpowiedniej konfiguracji tego repozytorium, uruchomienie projektu to kilka komend
+Dzięki odpowiedniej konfiguracji tego repozytorium, uruchomienie projektu to kilka komend.
 ```
 git clone git@github.com:paqu83/drupal-go.git
 cd drupal-go
@@ -16,6 +16,12 @@ ddev start
 ddev import-db --file=drupal-go-db.sql.gz 
 ```
 W tym momencie środowisko jest gotowe pod adresem https://drupal-go.ddev.site/
+### w razie pojawienia się błedu
+`Failed to start drupal-go: project drupal-go project root is already set to`
+należy uruchomić
+`ddev stop --unlist drupal-go`
+a następnie ponownie `ddev start`
+
 
 ### Jak wygląda przygotowanie lokalnego środowiska Drupal 10
 - Wszystkie komendy wykonujemy z linii poleceń
