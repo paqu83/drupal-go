@@ -6,7 +6,18 @@
 - zainstalowany composer https://getcomposer.org/download/
 - zainstalowane dockerowe środowisko developerskie https://ddev.com/
 
-### Przygotowanie lokalnego środowiska Drupal 10
+## Uruchomienie projektu lokalnie
+Dzięki odpowiedniej konfiguracji tego repozytorium, uruchomienie projektu to kilka komend
+```
+git clone git@github.com:paqu83/drupal-go.git
+cd drupal-go
+composer install
+ddev start
+ddev import-db --file=drupal-go-db.sql.gz 
+```
+W tym momencie środowisko jest gotowe pod adresem https://drupal-go.ddev.site/
+
+### Jak wygląda przygotowanie lokalnego środowiska Drupal 10
 - Wszystkie komendy wykonujemy z linii poleceń
 - `composer create-project drupal/recommended-project drupal-go`
 - `cd drupal-go`
