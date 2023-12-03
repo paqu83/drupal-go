@@ -1,0 +1,6 @@
+vendor
+web/core
+.idea
+web/modules/contrib
+web/sites/default/files
+
