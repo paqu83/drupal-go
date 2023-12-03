@@ -52,15 +52,18 @@ Project can be reached at https://drupal-go.ddev.site https://127.0.0.1:32774
 ```
 - na tym etapie możemy uruchomic instalację drupal odwiedzając adres `https://drupal-go.ddev.site/` w przeglądarce
 
-![Strona powitalna instalacji Drupal 10](readme_img/Screenshot 2023-12-03 at 09.53.48.jpg "Strona powitalna instalacji Drupal 10")
+![Screenshot 2023-12-03 at 09 53 48](https://github.com/paqu83/drupal-go/assets/20280759/489ded0b-f893-435b-8f9a-49a7ba8bb1cb)
+
 - podczas instalacji wybieramy opcję `Demo: Umami Food Magazine (Experimental)`
 
-![Instalcja Drupal 10](readme_img/Screenshot 2023-12-03 at 09.55.19.jpg "Instalcja Drupal 10")
+![Screenshot 2023-12-03 at 09 55 19](https://github.com/paqu83/drupal-go/assets/20280759/d5d52245-45d7-424e-898e-8b91fa052e22)
+
 
 - przechodzimy przez kolejne kroki instalacji
 - na tym etapie mamy w pełni działającą stronę na Drupal 10 na naszym lokalnym środowisku `https://drupal-go.ddev.site/`
 
-![Instalcja Drupal 10](readme_img/Screenshot 2023-12-03 at 10.00.54.jpg "Instalcja Drupal 10")
+![Screenshot 2023-12-03 at 10 00 54](https://github.com/paqu83/drupal-go/assets/20280759/56b6a132-e286-469f-b6cd-c89dd5ff53c4)
+
 
 ### Dostosowanie repozytorium do szybkiego uruchamiania
 na kolejnych środowiskach developerskich
