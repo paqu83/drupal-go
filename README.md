@@ -67,7 +67,7 @@ All project containers are now ready.
 Successfully started drupal-go
 Project can be reached at https://drupal-go.ddev.site https://127.0.0.1:32774
 ```
-- na tym etapie możemy uruchomic instalację drupal odwiedzając adres `https://drupal-go.ddev.site/` w przeglądarce
+- na tym etapie możemy uruchomić instalację drupal odwiedzając adres `https://drupal-go.ddev.site/` w przeglądarce
 
 ![Screenshot 2023-12-03 at 09 53 48](https://github.com/paqu83/drupal-go/assets/20280759/489ded0b-f893-435b-8f9a-49a7ba8bb1cb)
 
@@ -119,7 +119,7 @@ Files, Temp      : /tmp
  ~/projects/drupal-go │ main +1 !1 ?8 ▓▒░ ls -l | grep drupal-go-db                                                                                                                                                                    ░▒▓ ✔
 -rw-r--r--   1 ppakulski  staff  1012053 Dec  3 10:15 drupal-go-db.sql.gz
 ```
-- sprawadzamy czy import bazy danych przchodzi prawidłowo
+- sprawdzamy czy import bazy danych przechodzi prawidłowo
 - `ddev drush sql-drop` usuwamy istniejąca bazę
 - importujemy bazę z pliku
 ```
